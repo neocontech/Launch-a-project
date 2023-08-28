@@ -1,4 +1,67 @@
-:root {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.font-thin {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+}
+.font-extralight {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+}
+.font-light {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+}
+.font-regular {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+.font-medium {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+.font-semibold {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+.font-bold {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+.font-extrabold {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+}
+.font-black {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+}
+
+/* Navbar */
+a {
+  text-decoration: none;
+  color: inherit;
+  line-height: 1;
+}
+a {
+  background: linear-gradient(0deg, slateblue, slateblue) no-repeat right bottom / 0 var(--bg-h);
+  transition: background-size 350ms;
+  --bg-h: 100%;
+}
+a:where(:hover, :focus-visible) {
+  background-size: 100% var(--bg-h);
+  background-position-x: left;
+}
+
+.under {
+  padding-bottom: 2px;
+  --bg-h: 2px;
+}
+
+/* :root {
   --max-width: 1100px;
   --border-radius: 12px;
   --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
@@ -104,4 +167,4 @@ a {
   html {
     color-scheme: dark;
   }
-}
+} */
