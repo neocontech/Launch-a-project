@@ -16,6 +16,12 @@ module.exports = {
         lap_green: "#0DB14B",
         lap_blue: "#0089D0",
       },
+      screens: {
+        xsm: { min: "280px", max: "639px" },
+        sm: { min: "640px", max: "894px" },
+        md: { min: "894px", max: "1024px" },
+        // "2xl": { min: "1677px" },
+      },
     },
   },
   plugins: [],
