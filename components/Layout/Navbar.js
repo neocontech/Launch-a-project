@@ -56,7 +56,7 @@ function Navbar() {
 
               <Link
                 href="/"
-                className="mx-2 text-base text-white font-bold p-3 bg-blue-700"
+                className="mx-2 text-base text-white font-bold p-3 bg-lap_blue rounded-lg"
               >
                 <button> Post a Project</button>
               </Link>
