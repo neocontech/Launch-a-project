@@ -22,41 +22,47 @@ function Navbar() {
             </div>
             <div className="flex justify-between">
               <div className="flex justify-between my-auto">
-                <Link href="/" legacyBehavior>
-                  <a className="under mx-2 text-base text-lap_gray_light font-regular">
-                    Why
-                  </a>
+                <Link
+                  href="/"
+                  className="under navlink mx-2 text-base font-regular"
+                >
+                  <p className="text-lap_gray_light">Why</p>
                 </Link>
-                <Link href="/" legacyBehavior>
-                  <a className="under mx-2 text-base text-lap_gray_light font-regular">
-                    Community
-                  </a>
+                <Link
+                  href="/"
+                  className="under navlink mx-2 text-base font-regular"
+                >
+                  <p className="text-lap_gray_light">Community</p>
                 </Link>
-                <Link href="/" legacyBehavior>
-                  <a className="under mx-2 text-base text-lap_gray_light font-regular">
-                    Blog
-                  </a>
+                <Link
+                  href="/"
+                  className="under navlink mx-2 text-base font-regular"
+                >
+                  <p className="text-lap_gray_light">Blog</p>
                 </Link>
-                <Link href="/" legacyBehavior>
-                  <a className="under mx-2 text-base text-lap_gray_light font-regular">
-                    About Us
-                  </a>
+                <Link
+                  href="/"
+                  className="under navlink mx-2 text-base font-regular"
+                >
+                  <p className="text-lap_gray_light">About Us</p>
                 </Link>
-                <Link href="/" legacyBehavior>
-                  <a className="under mx-2 text-base text-lap_gray_light font-bold">
-                    Login
-                  </a>
+                <Link
+                  href="/"
+                  className="under navlink mx-2 text-base font-bold"
+                >
+                  <p className="text-lap_gray_light">Login</p>
                 </Link>
-                <Link href="/" className="" legacyBehavior>
-                  <a className="under mx-2 text-base text-lap_green font-bold">
-                    Apply as Freelancer
-                  </a>
+                <Link
+                  href="/"
+                  className="under navlink mx-2 text-base font-bold"
+                >
+                  <p className="text-lap_green">Apply as Freelancer</p>
                 </Link>
               </div>
 
               <Link
                 href="/"
-                className="mx-2 text-base text-white font-bold p-3 bg-lap_blue rounded-lg"
+                className="mx-2 text-base text-white font-bold p-3 bg-lap_blue rounded-md hover:bg-blue-900 duration-700"
               >
                 <button> Post a Project</button>
               </Link>

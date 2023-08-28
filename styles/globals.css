@@ -41,17 +41,17 @@
 }
 
 /* Navbar */
-a {
+.navlink {
   text-decoration: none;
   color: inherit;
   line-height: 1;
 }
-a {
-  background: linear-gradient(0deg, slateblue, slateblue) no-repeat right bottom / 0 var(--bg-h);
+.navlink {
+  background: linear-gradient(0deg, #0089D0, #0089D0) no-repeat right bottom / 0 var(--bg-h);
   transition: background-size 350ms;
   --bg-h: 100%;
 }
-a:where(:hover, :focus-visible) {
+.navlink:where(:hover, :focus-visible) {
   background-size: 100% var(--bg-h);
   background-position-x: left;
 }
