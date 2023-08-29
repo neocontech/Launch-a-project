@@ -19,6 +19,9 @@ module.exports = {
         lap_green: "#0DB14B",
         lap_blue: "#0089D0",
       },
+      fontSize: {
+        56: "56px",
+      },
       screens: {
         xsm: { min: "280px", max: "639px" },
         sm: { min: "640px", max: "894px" },
