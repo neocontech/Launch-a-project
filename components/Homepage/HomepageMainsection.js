@@ -2,6 +2,7 @@ import React from "react";
 import Hero from "./Hero";
 import Brands from "./Brands";
 import TopTalent from "./TopTalent";
+import WhyChoose from "./WhyChoose";
 
 function HomepageMainsection() {
   return (
@@ -9,6 +10,7 @@ function HomepageMainsection() {
       <Hero />
       <Brands />
       <TopTalent />
+      <WhyChoose />
     </>
   );
 }

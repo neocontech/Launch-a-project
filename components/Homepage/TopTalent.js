@@ -22,6 +22,14 @@ function TopTalent() {
               magnis volutpat iaculis velit aliquet. Nunc ultrices lacinia
             </p>
           </div>
+          {/* <div className="relative">
+            <div className="flex justify-between w-9/12 mx-auto px-8 xsm:hidden sm:hidden  absolute left-36 md:left-24">
+              <Image src={vector1} alt="vector.png" className="h-auto w-60 md:w-40 " />
+              <Image src={vector1} alt="vector.png" className="h-auto w-60 md:w-40 " />
+              <Image src={vector1} alt="vector.png" className="h-auto w-60 md:w-40 " />
+            </div>
+          </div> */}
+
           <div className="grid grid-cols-4 xsm:grid-cols-2 gap-4">
             <div className="flex flex-col mx-auto text-center">
               <Image
