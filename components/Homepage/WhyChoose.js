@@ -6,6 +6,7 @@ import borderstar from "../../public/assets/homepage/about/bordstar.png";
 import doller from "../../public/assets/homepage/about/doller.png";
 import lock from "../../public/assets/homepage/about/lock.png";
 import vector from "../../public/assets/homepage/about/vector.png";
+import Link from "next/link";
 
 function WhyChoose() {
   return (
@@ -13,7 +14,7 @@ function WhyChoose() {
       <div className="py-5">
         <div className="flex justify-between xsm:flex-col sm:flex-col w-full">
           <div className="w-1/2 xsm:w-full sm:w-full">
-            <div className="bg-gradient-to-tr from-[#DEF7F2] to-[#C0ECD7] rounded-r-md">
+            <div className="bg-gradient-to-tr from-[#DEF7F2] to-[#0DB14B]/30 rounded-r-md">
               <div className="flex flex-col py-20 px-10 pl-40 xsm:px-5  xsm:py-10 sm:px-5  sm:py-10">
                 <p className="text-4xl text-lap_black font-medium pb-5">
                   We've <br />
@@ -45,10 +46,14 @@ function WhyChoose() {
           </div>
           <div className="px-5 xsm:hidden sm:hidden block"></div>
           <div className="hidden xsm:block sm:block">
-            <Image src={vector} alt="vector.png" className="w-auto h-auto mx-auto" />
+            <Image
+              src={vector}
+              alt="vector.png"
+              className="w-auto h-auto mx-auto"
+            />
           </div>
           <div className="w-full">
-            <div className="bg-gradient-to-r from-[#DEF7F2] to-[#C0ECD7] rounded-l-md">
+            <div className="bg-gradient-to-r from-[#E1F5FE]/50 to-[#0089D0]/40 rounded-l-md">
               <div className="flex flex-col pt-12 pb-20 px-10 pl-40 xsm:px-5  xsm:py-10 sm:px-5  sm:py-10">
                 <p className="text-4xl text-lap_black font-medium pb-6">
                   Why Everybody Choose <br />
@@ -106,6 +111,18 @@ function WhyChoose() {
           <div className="absolute -top-80 -mt-32 left-80 w-5/12">
             <Image src={vector} alt="vector.png" className=" h-auto" />
           </div>
+        </div>
+      </div>
+      <div className="py-5">
+        <div className="text-center">
+          <p className="text-4xl font-medium text-lap_black pb-10">
+            Ready to get started?
+          </p>
+          <Link href="/">
+            <button className="text-white bg-lap_blue px-6 py-3 text-base font-bold rounded-md">
+              Post a project now
+            </button>
+          </Link>
         </div>
       </div>
     </>
